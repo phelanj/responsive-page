@@ -1,0 +1,72 @@
+body {margin: 0; color: white;}
+a {color: #2969b0;}
+.title,.footer-title,.privacy-item {font-family: 'Playfair Display', serif;}
+.title {font-size: 60px;}
+.footer-title {font-size: 30px;}
+.privacy-item {font-size: 25.97px; color: #2969b0; margin-top: 8px;}
+
+
+.sub-header,.banner-text,.sub-items,.nav-items {font-family: 'Source Sans Pro', sans-serif;}
+.sub-header {font-size: 20px; color: #333333; font-weight: 600; text-transform: uppercase; text-decoration: underline;}
+.banner-text {font-size: 18px; font-weight: 300;}
+.sub-items {font-size: 16px; color: black; font-weight: 300;}
+.nav-items {font-size: 14px; text-transform: uppercase;}
+/* .sub-email {font-size: 12px; font-weight: 300;} */
+
+nav a {text-decoration: none; color: white;}
+a:hover {text-decoration: underline;}
+nav {
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 80px;
+
+}
+.nav-container {
+    max-width: 1200px;
+    margin: auto;
+    
+}
+.nav-container a {
+    padding-left: 30px;
+}
+
+img.logo {max-height: 54px; float: left; padding-top: 13px;}
+.nav-right {float: right; margin-top: 10px;}
+.nav-container a {top: 40px;}
+.search {position: relative; top: 15px;}
+
+.banner {
+    background-image: url('../images/bg.png'); /*replace app with '../'*/
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.banner-container {
+    position: absolute;
+    width: 100%;
+}
+
+.main {max-width: 1100px; width: 85%; margin: 0 auto;}
+ol li {line-style-position: inside;}
+.main-hr {border: 1px solid #b9e4e7; width: 60px !important; margin-left: 0px;}
+
+ul.sub-items {list-style-image: url("../images/arrow.png"); padding-left: 20px;}
+.sub-items li { padding: 10px 0; }
+
+.stay-connected {
+    background-image: linear-gradient(#353535,#353535), url('../images/image.png');
+    background-blend-mode: saturation;
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.footer {
+    height: 130px;
+    width: 100%;
+    background-color: #353535;
+}
